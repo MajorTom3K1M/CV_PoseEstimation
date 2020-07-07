@@ -28,3 +28,16 @@ From the implementation has showed that trained SVM classifier will have a good 
 only when the image have a clear depth estimation value.<br/>
 In this work estimate 16 key points: Head, Neck, Spine, Pelvis, r_Ankle, l_Ankle, r_Knee, l_Knee, r_Hip, l_Hip, r_Shoulder,
 l_Shoulder, r_Elbow, l_Elbow, r_Wrist, l_Wrist
+
+|          |  Head  | l_Shoulder | r_Shoulder | l_Elbow  | r_Elbow | l_Wrist | r_Wrist | Neck   |
+| -------- | ------ | ---------- | ---------- | -------- | ------- | ------- | ------- | ------ |
+| All      | 10     | 10         | 10         | 10       | 10      | 8       | 9       | 9      |
+| Correct  | 7      | 4          | 2          | 2        | 0       | 1       | 1       | 4      |
+| %        | 70.00% | 40.00%     | 20.00%     | 20.00%   | 0.00%   | 12.50%  | 11.11%  | 44.44% |
+
+|          |  Spine  | Pelvis | l_Hip  | r_Hip  | l_Knee  | r_Knee  | l_Ankle | r_Ankle |
+| -------- | ------- | ------ | ------ | ------ | ------- | ------- | ------- | ------- |
+| All      | 9       | 8      | 10     | 10     | 10      | 10      | 9       | 8       |
+| Correct  | 8       | 3      | 5      | 4      | 0       | 0       | 2       | 2       |
+| %        | 88.88%  | 38.00% | 50.00% | 40.00% | 0.00%   | 0.00%   | 22.22%  | 25.00%  |
+
