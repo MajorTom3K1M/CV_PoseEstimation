@@ -41,3 +41,8 @@ l_Shoulder, r_Elbow, l_Elbow, r_Wrist, l_Wrist
 | Correct  | 8       | 3      | 5      | 4      | 0       | 0       | 2       | 2       |
 | %        | 88.88%  | 38.00% | 50.00% | 40.00% | 0.00%   | 0.00%   | 22.22%  | 25.00%  |
 
+## Result Example
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MajorTom3K1M/CV_PoseEstimation/master/example/pic2.png">
+</p>
+
